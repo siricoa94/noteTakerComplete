@@ -22,7 +22,7 @@ $("#savebutton").on("click", function(event) {
     }).then(function() {
       console.log("created new note");
       // Reload the page to get the updated list
-    //   location.reload();
+      location.reload();
     });
 });
 
